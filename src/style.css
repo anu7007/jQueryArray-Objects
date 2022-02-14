@@ -144,14 +144,16 @@ body{
 	border: 1px solid #cccccc; 
 }
 td{
-	border: 1px solid black;
+	border: none;
 	text-align: center;
 	border-collapse: none;
 	font-size: 20px;
 	width: 10%;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 #cart th{
-	border: 2px solid #3e9cbf;
+	/* border: 2px solid #3e9cbf; */
 	color: black;
 	font-size: 20px;
 	border-collapse: collapse;
@@ -159,21 +161,25 @@ td{
 }
 table{
 	border-collapse: collapse;
+	border-bottom: #000000;
+	margin-top: 50px;
+	margin-left: 70px;
+	margin-right: 70px;
 }
 tr:nth-child(even) {
     background-color: #dddddd;
-}
-tr{
-	padding-top: 20px;
 }
 .dlt{
 	color: red;
 }
 table th{
 	background-color: burlywood;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 #emptyCart{
 	color: red;
 	text-decoration: none;
 	background: white;
+	padding: 22px;
 }

@@ -57,8 +57,6 @@ function displayProducts(){
             
             var index=cartArray.findIndex((x) => x.id == id);
             cartArray[index].quantity++;
-            
-          console.log(index,'=',cartArray[index].id,cartArray[index].quantity)
           displayCart();
         }
         else{
